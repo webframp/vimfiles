@@ -1,0 +1,23 @@
+Portable VIM config.
+
+Dependencies and setup steps, post git clone.
+
+ack-grep:
+
+  apt-get install ack-grep
+
+pep8:
+
+  easy_install pep8
+
+command-t:
+  
+  cd ~/.vim/bundle/command-t; rake make
+
+test integration for django-nose req:
+
+  easy_install nose
+
+vimrc also tracked, to use:
+
+  ln -s ~/.vim/vimrc ~/.vimrc
